@@ -103,3 +103,10 @@ ROWS	의 숫자가 크다면 쿼리의 개선이 필요로한다.
 
 
 
+
+
+출처
+
+- https://dev.mysql.com/doc/refman/8.0/en/explain-output.html
+- https://nomadlee.com/mysql-explain-sql/
+
