@@ -8,21 +8,13 @@
 
    region varchar(20), zone varchar(20), reg_code varchar(20)
 
-
-
-
+![](https://github.com/honghyeokgi/-DataBase-study/blob/main/img/%EA%B7%B8%EB%A6%BC9.png?raw=true)
 
 2. FARMINFO
 
-   AREA  varchar(20), ZONE varchar(20), NAME varchar(10), FARM_ID varchar(20),
+   AREA  varchar(20), ZONE varchar(20), NAME varchar(10), FARM_ID varchar(20)
 
-
-
-
-
-
-
-
+   ![](https://github.com/honghyeokgi/-DataBase-study/blob/main/img/%EA%B7%B8%EB%A6%BC10.png?raw=true)
 
 
 
@@ -83,3 +75,6 @@ CALL TEST_PR('경기도 고양시','테스트');
 
 결과 
 
+![](https://github.com/honghyeokgi/-DataBase-study/blob/main/img/%EA%B7%B8%EB%A6%BC11.png?raw=true)
+
+다음과 같이 Areas 에 있는 reg_code 와 입력받은 NAME 이 합쳐진 상태로 INSERT 되게 됩니다.
