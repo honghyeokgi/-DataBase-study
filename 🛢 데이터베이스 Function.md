@@ -19,11 +19,7 @@
 show global variables like 'log_bin_trust_function_creators';
 ```
 
-
-
-
-
-
+![](https://github.com/honghyeokgi/-DataBase-study/blob/main/img/%EA%B7%B8%EB%A6%BC12.png?raw=true)
 
 위와 달리 OFF 로 설정이 되어있다면
 
@@ -82,9 +78,13 @@ DELIMITER;
 
 ##### result
 
+![](https://github.com/honghyeokgi/-DataBase-study/blob/main/img/%EA%B7%B8%EB%A6%BC13.png?raw=true)
 
+위 이미지와 같이 결과가 출력 되는것을 볼수 있다.
 
+아직 Stored Function 기능을 어떻게 효율적으로 사용할수 있는지 생각해 봐야겠다...
 
+개인적으로 SP 가 더 효율적이라고 생각한다.
 
 
 
