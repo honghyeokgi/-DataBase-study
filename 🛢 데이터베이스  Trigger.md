@@ -109,7 +109,9 @@ AFTER DELETE ON 'serial_port' FOR EACH ROW BEGIN
 
 insert INTO serial_log VALUES('0',OLD.reg_port,OLD.serialNM,'DELETE',DATE_FORMAT(NOW(),'%Y%m%d'),DATE_FORMAT(NOW(),'%H%i%s'));
 
-END
+END $$
+DELIMITER;
+
 ```
 
 위 예제의 업데이트 관련 트리거는 serialNm 은 저는 변동을 하면 안되므로 OLD 로 지정하고 port 만 바뀌기에
@@ -127,9 +129,17 @@ SELECT TRIGGER FROM '데이터베이스명' # 트리거 조회
 
 결과
 
+![](https://github.com/honghyeokgi/-DataBase-study/blob/main/img/%EA%B7%B8%EB%A6%BC14.png?raw=true)
+
+트리거를 활용하여 간단한 로그테이블을 만들수 있다
 
 
 
+
+
+출처
+
+- https://mariadb.com/kb/ko/trigger-overview/
 
 
 
